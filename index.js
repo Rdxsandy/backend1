@@ -27,6 +27,10 @@ app.use(
     credentials: true,
   })
 );
+app.options("*", cors({
+  origin: "https://edtech-gray.vercel.app",
+  credentials: true,
+}));
 
 app.use(
   fileUpload({
