@@ -1,5 +1,5 @@
 exports.courseEnrollmentEmail = (courseName, name) => {
-    return `<!DOCTYPE html>
+  return `<!DOCTYPE html>
     <html>
     
     <head>
@@ -11,7 +11,7 @@ exports.courseEnrollmentEmail = (courseName, name) => {
                 font-family: Arial, sans-serif;
                 font-size: 16px;
                 line-height: 1.4;
-                color: #333333;
+                                               color: #333333;
                 margin: 0;
                 padding: 0;
             }
@@ -84,4 +84,4 @@ exports.courseEnrollmentEmail = (courseName, name) => {
     </body>
     
     </html>`;
-  };
+};
